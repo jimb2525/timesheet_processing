@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="cf7eab311bd6edd088c964a5ec4bcb20" extends="task" label="Contractor Timesheet" max_length="40" name="x_snc_timesheet_1_contractor_timesheet" text_index="true" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Customer Approval" max_length="100" name="customer_approval" type="string"/>
+        <element label="Employee" max_length="32" name="employee" reference="sys_user" type="reference"/>
+        <element label="Employee First Name" max_length="40" name="employee_first_name" type="integer"/>
+        <element label="Employee Last Name" max_length="40" name="employee_last_name" type="integer"/>
+        <element label="Employee Middle Initial" max_length="40" name="employee_middle_initial" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Employee Signature" max_length="100" name="employee_signature" type="string"/>
+        <element label="Overtime Friday" max_length="38" name="overtime_friday" type="decimal"/>
+        <element label="Overtime Monday" max_length="38" name="overtime_monday" type="decimal"/>
+        <element label="Overtime Thursday" max_length="38" name="overtime_thursday" type="decimal"/>
+        <element label="Overtime Total" max_length="38" name="overtime_total" type="decimal"/>
+        <element label="Overtime Tuesday" max_length="38" name="overtime_tuesday" type="decimal"/>
+        <element label="Overtime Wednesday" max_length="38" name="overtime_wednesday" type="decimal"/>
+        <element label="Straight Time Friday" max_length="38" name="straight_time_friday" type="decimal"/>
+        <element label="Straight Time Monday" max_length="38" name="straight_time_monday" type="decimal"/>
+        <element label="Straight Time Thursday" max_length="38" name="straight_time_thursday" type="decimal"/>
+        <element label="Straight Time Total" max_length="38" name="straight_time_total" type="decimal"/>
+        <element label="Straight Time Tuesday" max_length="38" name="straight_time_tuesday" type="decimal"/>
+        <element label="Straight Time Wednesday" max_length="38" name="straight_time_wednesday" type="decimal"/>
+        <element label="Total" max_length="38" name="total" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true" label="Week Ending" max_length="40" name="week_ending" type="glide_date"/>
+        <element label="Week Ending Day" max_length="40" name="week_ending_day" type="integer"/>
+        <element label="Week Ending Month" max_length="40" name="week_ending_month" type="integer"/>
+        <element label="Week Ending Year" max_length="40" name="week_ending_year" type="integer"/>
+    </element>
+</database>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="309e2f311bd6edd088c964a5ec4bcbd2" sys_domain="global" table="x_snc_timesheet_1_contractor_timesheet" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-20 12:28:53</sys_created_on>
+            <sys_id>baf0bf751bd6edd088c964a5ec4bcbde</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_timesheet_1_contractor_timesheet" sys_domain="global" view="Default view">309e2f311bd6edd088c964a5ec4bcbd2</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-20 12:28:53</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>priority</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-20 12:28:53</sys_created_on>
+            <sys_id>b2f0bf751bd6edd088c964a5ec4bcbdf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_timesheet_1_contractor_timesheet" sys_domain="global" view="Default view">309e2f311bd6edd088c964a5ec4bcbd2</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-20 12:28:53</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>active</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-20 12:28:53</sys_created_on>
+            <sys_id>b6f0bf751bd6edd088c964a5ec4bcbdf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_timesheet_1_contractor_timesheet" sys_domain="global" view="Default view">309e2f311bd6edd088c964a5ec4bcbd2</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-20 12:28:53</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-20 12:28:53</sys_created_on>
+            <sys_id>baf0bf751bd6edd088c964a5ec4bcbdf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_timesheet_1_contractor_timesheet" sys_domain="global" view="Default view">309e2f311bd6edd088c964a5ec4bcbd2</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-20 12:28:53</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-20 12:28:53</sys_created_on>
+            <sys_id>bef0bf751bd6edd088c964a5ec4bcbdf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_timesheet_1_contractor_timesheet" sys_domain="global" view="Default view">309e2f311bd6edd088c964a5ec4bcbd2</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-20 12:28:53</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assigned_to</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-20 12:28:53</sys_created_on>
+            <sys_id>b2f0bf751bd6edd088c964a5ec4bcbe0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_timesheet_1_contractor_timesheet" sys_domain="global" view="Default view">309e2f311bd6edd088c964a5ec4bcbd2</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-20 12:28:53</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assignment_group</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-20 12:28:53</sys_created_on>
+            <sys_id>b6f0bf751bd6edd088c964a5ec4bcbe0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_timesheet_1_contractor_timesheet" sys_domain="global" view="Default view">309e2f311bd6edd088c964a5ec4bcbd2</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-20 12:28:53</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>parent</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-20 12:28:53</sys_created_on>
+            <sys_id>baf0bf751bd6edd088c964a5ec4bcbe0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_timesheet_1_contractor_timesheet" sys_domain="global" view="Default view">309e2f311bd6edd088c964a5ec4bcbd2</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-20 12:28:53</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_snc_timesheet_1_contractor_timesheet</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-20 12:18:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>309e2f311bd6edd088c964a5ec4bcbd2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_timesheet_1_contractor_timesheet</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Timesheet Processing" source="x_snc_timesheet_1">a43de3bd1b96edd088c964a5ec4bcb3d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Timesheet Processing">a43de3bd1b96edd088c964a5ec4bcb3d</sys_scope>
+            <sys_update_name>sys_ui_section_309e2f311bd6edd088c964a5ec4bcbd2</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-20 12:18:22</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

@@ -1,0 +1,630 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>validate_timesheet_data</internal_name>
+        <label_cache>[{"name":"9ea3b928-38b8-4e30-a4a3-1eff269c4418.__dont_treat_as_error__","label":"2 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"9ea3b928-38b8-4e30-a4a3-1eff269c4418.__action_status__","label":"2 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"9ea3b928-38b8-4e30-a4a3-1eff269c4418.table_name","label":"2 - Update Record➛Contractor Timesheet Table","reference":"x_snc_timesheet_1_contractor_timesheet","reference_display":"Contractor Timesheet","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"9ea3b928-38b8-4e30-a4a3-1eff269c4418.record","label":"2 - Update Record➛Contractor Timesheet Record","reference":"x_snc_timesheet_1_contractor_timesheet","reference_display":"Contractor Timesheet","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"subflow.timesheet","label":"Input➛Timesheet","reference":"x_snc_timesheet_1_contractor_timesheet","reference_display":"Contractor Timesheet","type":"reference","base_type":"reference","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"d27bb976-35de-4158-ac3a-95c7d3f65eaf"}},{"name":"38f38f3e-3af1-4498-954b-6965b1d8cce1.status","label":"1 - Validate Timesheet Data➛Status","reference_display":"Status","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","uiUniqueId":"82db220b-313b-4533-aae0-dc5fe4a5df93"}},{"name":"38f38f3e-3af1-4498-954b-6965b1d8cce1.__dont_treat_as_error__","label":"1 - Validate Timesheet Data➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"dfd7e36c-71a2-4f2c-b2c8-debb2b958837"}},{"name":"38f38f3e-3af1-4498-954b-6965b1d8cce1.__action_status__","label":"1 - Validate Timesheet Data➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"d01d54d8-b850-41ff-82fd-b188f4caf556"}},{"name":"subflow.timesheet.straight_time_total","label":"Input➛Timesheet➛Straight Time Total","reference":"","reference_display":"Straight Time Total","type":"decimal","base_type":"decimal","parent_table_name":"x_snc_timesheet_1_contractor_timesheet","column_name":"straight_time_total"}]</label_cache>
+        <master_snapshot>0b6d904a1b5eedd088c964a5ec4bcb84</master_snapshot>
+        <name>Process Timesheet</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-20 12:51:45</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b13633b11b1aedd088c964a5ec4bcbd0</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Process Timesheet</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Timesheet Processing" source="x_snc_timesheet_1">a43de3bd1b96edd088c964a5ec4bcb3d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Timesheet Processing">a43de3bd1b96edd088c964a5ec4bcb3d</sys_scope>
+        <sys_update_name>sys_hub_flow_b13633b11b1aedd088c964a5ec4bcbd0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-20 15:43:04</sys_updated_on>
+        <type>subflow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=b13633b11b1aedd088c964a5ec4bcbd0"/>
+    <sys_variable_value action="delete_multiple" query="document_key=b13633b11b1aedd088c964a5ec4bcbd0"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=b13633b11b1aedd088c964a5ec4bcbd0"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=b13633b11b1aedd088c964a5ec4bcbd0"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=b13633b11b1aedd088c964a5ec4bcbd0^sys_idNOT IN753633b11b1aedd088c964a5ec4bcbd2"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>b13633b11b1aedd088c964a5ec4bcbd0</id>
+        <name>Validate Timesheet Data</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-20 12:51:45</sys_created_on>
+        <sys_id>753633b11b1aedd088c964a5ec4bcbd2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-20 12:51:45</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=753633b11b1aedd088c964a5ec4bcbd2"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=b13633b11b1aedd088c964a5ec4bcbd0^sys_idNOT IN6e5d9c0a1b5eedd088c964a5ec4bcb47"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=d27bb976-35de-4158-ac3a-95c7d3f65eaf</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>x_snc_timesheet_1_contractor_timesheet</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>timesheet</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Timesheet</label>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Process Timesheet">b13633b11b1aedd088c964a5ec4bcbd0</model>
+        <model_id>b13633b11b1aedd088c964a5ec4bcbd0</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_b13633b11b1aedd088c964a5ec4bcbd0</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="x_snc_timesheet_1_contractor_timesheet">x_snc_timesheet_1_contractor_timesheet</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-20 15:42:44</sys_created_on>
+        <sys_id>6e5d9c0a1b5eedd088c964a5ec4bcb47</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Timesheet Processing">a43de3bd1b96edd088c964a5ec4bcb3d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-20 15:42:45</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=6e5d9c0a1b5eedd088c964a5ec4bcb47"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=b13633b11b1aedd088c964a5ec4bcbd0"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=b13633b11b1aedd088c964a5ec4bcbd0"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=b13633b11b1aedd088c964a5ec4bcbd0^sys_idNOT INaa5d9c0a1b5eedd088c964a5ec4bcb5f,e25d9c0a1b5eedd088c964a5ec4bcb59"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Process Timesheet">b13633b11b1aedd088c964a5ec4bcbd0</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-20 15:42:45</sys_created_on>
+        <sys_id>aa5d9c0a1b5eedd088c964a5ec4bcb5f</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope display_value="Timesheet Processing">a43de3bd1b96edd088c964a5ec4bcb3d</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-04-20 16:01:57</sys_updated_on>
+        <ui_id>9ea3b928-38b8-4e30-a4a3-1eff269c4418</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=aa5d9c0a1b5eedd088c964a5ec4bcb5f"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>aa5d9c0a1b5eedd088c964a5ec4bcb5f</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-20 15:42:45</sys_created_on>
+        <sys_id>b25d9c0a1b5eedd088c964a5ec4bcb62</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-20 15:42:45</sys_updated_on>
+        <value>x_snc_timesheet_1_contractor_timesheet</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>aa5d9c0a1b5eedd088c964a5ec4bcb5f</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-20 15:42:45</sys_created_on>
+        <sys_id>ba5d9c0a1b5eedd088c964a5ec4bcb61</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-20 15:42:45</sys_updated_on>
+        <value>work_notes=Timesheet has been validated.</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=aa5d9c0a1b5eedd088c964a5ec4bcb5f"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>aa5d9c0a1b5eedd088c964a5ec4bcb5f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-20 15:42:45</sys_created_on>
+        <sys_id>765d9c0a1b5eedd088c964a5ec4bcb61</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-20 15:42:45</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{subflow.timesheet}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>aa5d9c0a1b5eedd088c964a5ec4bcb5f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-20 15:42:45</sys_created_on>
+        <sys_id>b25d9c0a1b5eedd088c964a5ec4bcb61</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-20 15:42:45</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>aa5d9c0a1b5eedd088c964a5ec4bcb5f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-20 15:42:45</sys_created_on>
+        <sys_id>3a5d9c0a1b5eedd088c964a5ec4bcb61</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-20 15:42:45</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=aa5d9c0a1b5eedd088c964a5ec4bcb5f"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=aa5d9c0a1b5eedd088c964a5ec4bcb5f"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Validate Timesheet Data">296c94861b5eedd088c964a5ec4bcb30</action_type>
+        <action_type_parent/>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Process Timesheet">b13633b11b1aedd088c964a5ec4bcbd0</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-20 15:42:45</sys_created_on>
+        <sys_id>e25d9c0a1b5eedd088c964a5ec4bcb59</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope display_value="Timesheet Processing">a43de3bd1b96edd088c964a5ec4bcb3d</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-04-20 16:01:57</sys_updated_on>
+        <ui_id>38f38f3e-3af1-4498-954b-6965b1d8cce1</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=e25d9c0a1b5eedd088c964a5ec4bcb59"/>
+    <sys_element_mapping action="delete_multiple" query="id=e25d9c0a1b5eedd088c964a5ec4bcb59"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>timesheet</field>
+        <id>e25d9c0a1b5eedd088c964a5ec4bcb59</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-20 15:42:45</sys_created_on>
+        <sys_id>265d9c0a1b5eedd088c964a5ec4bcb5b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-20 15:42:45</sys_updated_on>
+        <table>var__m_sys_hub_action_input_296c94861b5eedd088c964a5ec4bcb30</table>
+        <value>{{subflow.timesheet}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=e25d9c0a1b5eedd088c964a5ec4bcb59"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=e25d9c0a1b5eedd088c964a5ec4bcb59"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=b13633b11b1aedd088c964a5ec4bcbd0"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=b13633b11b1aedd088c964a5ec4bcbd0"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=b13633b11b1aedd088c964a5ec4bcbd0"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=b13633b11b1aedd088c964a5ec4bcbd0"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_b13633b11b1aedd088c964a5ec4bcbd0^sys_idNOT INe25d9c0a1b5eedd088c964a5ec4bcb4f"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>timesheet</element>
+        <help/>
+        <hint/>
+        <label>Timesheet</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_b13633b11b1aedd088c964a5ec4bcbd0</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-20 15:42:45</sys_created_on>
+        <sys_id>e25d9c0a1b5eedd088c964a5ec4bcb4f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Timesheet Processing" source="x_snc_timesheet_1">a43de3bd1b96edd088c964a5ec4bcb3d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Timesheet Processing">a43de3bd1b96edd088c964a5ec4bcb3d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-20 15:42:45</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_b13633b11b1aedd088c964a5ec4bcbd0"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_b13633b11b1aedd088c964a5ec4bcbd0"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_b13633b11b1aedd088c964a5ec4bcbd0"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>process_timesheet</internal_name>
+        <label_cache>[{"name":"9ea3b928-38b8-4e30-a4a3-1eff269c4418.__dont_treat_as_error__","label":"2 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"9ea3b928-38b8-4e30-a4a3-1eff269c4418.__action_status__","label":"2 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"9ea3b928-38b8-4e30-a4a3-1eff269c4418.table_name","label":"2 - Update Record➛Contractor Timesheet Table","reference":"x_snc_timesheet_1_contractor_timesheet","reference_display":"Contractor Timesheet","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"9ea3b928-38b8-4e30-a4a3-1eff269c4418.record","label":"2 - Update Record➛Contractor Timesheet Record","reference":"x_snc_timesheet_1_contractor_timesheet","reference_display":"Contractor Timesheet","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"subflow.timesheet","label":"Input➛Timesheet","reference":"x_snc_timesheet_1_contractor_timesheet","reference_display":"Contractor Timesheet","type":"reference","base_type":"reference","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"d27bb976-35de-4158-ac3a-95c7d3f65eaf"}},{"name":"38f38f3e-3af1-4498-954b-6965b1d8cce1.status","label":"1 - Validate Timesheet Data➛Status","reference_display":"Status","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","uiUniqueId":"82db220b-313b-4533-aae0-dc5fe4a5df93"}},{"name":"38f38f3e-3af1-4498-954b-6965b1d8cce1.__dont_treat_as_error__","label":"1 - Validate Timesheet Data➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"dfd7e36c-71a2-4f2c-b2c8-debb2b958837"}},{"name":"38f38f3e-3af1-4498-954b-6965b1d8cce1.__action_status__","label":"1 - Validate Timesheet Data➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"d01d54d8-b850-41ff-82fd-b188f4caf556"}},{"name":"subflow.timesheet.straight_time_total","label":"Input➛Timesheet➛Straight Time Total","reference":"","reference_display":"Straight Time Total","type":"decimal","base_type":"decimal","parent_table_name":"x_snc_timesheet_1_contractor_timesheet","column_name":"straight_time_total"}]</label_cache>
+        <master>true</master>
+        <name>Process Timesheet</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Process Timesheet">b13633b11b1aedd088c964a5ec4bcbd0</parent_flow>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-20 15:43:03</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0b6d904a1b5eedd088c964a5ec4bcb84</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Timesheet Processing">a43de3bd1b96edd088c964a5ec4bcb3d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-20 15:43:03</sys_updated_on>
+        <type>subflow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=0b6d904a1b5eedd088c964a5ec4bcb84"/>
+    <sys_variable_value action="delete_multiple" query="document_key=0b6d904a1b5eedd088c964a5ec4bcb84"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=0b6d904a1b5eedd088c964a5ec4bcb84"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=0b6d904a1b5eedd088c964a5ec4bcb84"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=0b6d904a1b5eedd088c964a5ec4bcb84^sys_idNOT IN4f6d904a1b5eedd088c964a5ec4bcb85"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>0b6d904a1b5eedd088c964a5ec4bcb84</id>
+        <name>Process Timesheet</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-20 15:43:03</sys_created_on>
+        <sys_id>4f6d904a1b5eedd088c964a5ec4bcb85</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-20 15:43:03</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=4f6d904a1b5eedd088c964a5ec4bcb85"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=0b6d904a1b5eedd088c964a5ec4bcb84^sys_idNOT IN836d904a1b5eedd088c964a5ec4bcb87"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=d27bb976-35de-4158-ac3a-95c7d3f65eaf</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>x_snc_timesheet_1_contractor_timesheet</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>timesheet</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Timesheet</label>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Process Timesheet">0b6d904a1b5eedd088c964a5ec4bcb84</model>
+        <model_id>0b6d904a1b5eedd088c964a5ec4bcb84</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_0b6d904a1b5eedd088c964a5ec4bcb84</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="x_snc_timesheet_1_contractor_timesheet">x_snc_timesheet_1_contractor_timesheet</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-20 15:43:03</sys_created_on>
+        <sys_id>836d904a1b5eedd088c964a5ec4bcb87</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Timesheet Processing">a43de3bd1b96edd088c964a5ec4bcb3d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-20 15:43:03</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=836d904a1b5eedd088c964a5ec4bcb87"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=0b6d904a1b5eedd088c964a5ec4bcb84"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=0b6d904a1b5eedd088c964a5ec4bcb84"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=0b6d904a1b5eedd088c964a5ec4bcb84^sys_idNOT IN1b6dd04a1b5eedd088c964a5ec4bcb08,d76dd04a1b5eedd088c964a5ec4bcb01"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Process Timesheet">0b6d904a1b5eedd088c964a5ec4bcb84</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-20 15:43:04</sys_created_on>
+        <sys_id>1b6dd04a1b5eedd088c964a5ec4bcb08</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Timesheet Processing">a43de3bd1b96edd088c964a5ec4bcb3d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-20 15:43:04</sys_updated_on>
+        <ui_id>9ea3b928-38b8-4e30-a4a3-1eff269c4418</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=1b6dd04a1b5eedd088c964a5ec4bcb08"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>1b6dd04a1b5eedd088c964a5ec4bcb08</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-20 15:43:04</sys_created_on>
+        <sys_id>176dd04a1b5eedd088c964a5ec4bcb0a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-20 15:43:04</sys_updated_on>
+        <value>x_snc_timesheet_1_contractor_timesheet</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>1b6dd04a1b5eedd088c964a5ec4bcb08</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-20 15:43:04</sys_created_on>
+        <sys_id>536dd04a1b5eedd088c964a5ec4bcb0a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-20 15:43:04</sys_updated_on>
+        <value>work_notes=Timesheet has been validated.</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=1b6dd04a1b5eedd088c964a5ec4bcb08"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>1b6dd04a1b5eedd088c964a5ec4bcb08</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-20 15:43:04</sys_created_on>
+        <sys_id>1f6dd04a1b5eedd088c964a5ec4bcb09</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-20 15:43:04</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{subflow.timesheet}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>1b6dd04a1b5eedd088c964a5ec4bcb08</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-20 15:43:04</sys_created_on>
+        <sys_id>5b6dd04a1b5eedd088c964a5ec4bcb09</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-20 15:43:04</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>1b6dd04a1b5eedd088c964a5ec4bcb08</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-20 15:43:04</sys_created_on>
+        <sys_id>df6dd04a1b5eedd088c964a5ec4bcb09</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-20 15:43:04</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=1b6dd04a1b5eedd088c964a5ec4bcb08"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=1b6dd04a1b5eedd088c964a5ec4bcb08"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Validate Timesheet Data">296c94861b5eedd088c964a5ec4bcb30</action_type>
+        <action_type_parent display_value="Validate Timesheet Data">3bfdff751b5aedd088c964a5ec4bcb67</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Process Timesheet">0b6d904a1b5eedd088c964a5ec4bcb84</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-20 15:43:04</sys_created_on>
+        <sys_id>d76dd04a1b5eedd088c964a5ec4bcb01</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Timesheet Processing">a43de3bd1b96edd088c964a5ec4bcb3d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-20 15:43:04</sys_updated_on>
+        <ui_id>38f38f3e-3af1-4498-954b-6965b1d8cce1</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=d76dd04a1b5eedd088c964a5ec4bcb01"/>
+    <sys_element_mapping action="delete_multiple" query="id=d76dd04a1b5eedd088c964a5ec4bcb01"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>timesheet</field>
+        <id>d76dd04a1b5eedd088c964a5ec4bcb01</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-20 15:43:04</sys_created_on>
+        <sys_id>176dd04a1b5eedd088c964a5ec4bcb02</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-20 15:43:04</sys_updated_on>
+        <table>var__m_sys_hub_action_input_296c94861b5eedd088c964a5ec4bcb30</table>
+        <value>{{subflow.timesheet}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=d76dd04a1b5eedd088c964a5ec4bcb01"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=d76dd04a1b5eedd088c964a5ec4bcb01"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=0b6d904a1b5eedd088c964a5ec4bcb84"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=0b6d904a1b5eedd088c964a5ec4bcb84"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=0b6d904a1b5eedd088c964a5ec4bcb84"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=0b6d904a1b5eedd088c964a5ec4bcb84"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_0b6d904a1b5eedd088c964a5ec4bcb84^sys_idNOT IN5b6d904a1b5eedd088c964a5ec4bcbf2"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>timesheet</element>
+        <help/>
+        <hint/>
+        <label>Timesheet</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_0b6d904a1b5eedd088c964a5ec4bcb84</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-20 15:43:04</sys_created_on>
+        <sys_id>5b6d904a1b5eedd088c964a5ec4bcbf2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Timesheet Processing" source="x_snc_timesheet_1">a43de3bd1b96edd088c964a5ec4bcb3d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Timesheet Processing">a43de3bd1b96edd088c964a5ec4bcb3d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-20 15:43:04</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_0b6d904a1b5eedd088c964a5ec4bcb84"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_0b6d904a1b5eedd088c964a5ec4bcb84"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_0b6d904a1b5eedd088c964a5ec4bcb84"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>b13633b11b1aedd088c964a5ec4bcbd0</sys_id>
+        <latest_snapshot>0b6d904a1b5eedd088c964a5ec4bcb84</latest_snapshot>
+        <compiler_build>glide-sandiego-12-22-2021__patch10-hotfix1-02-10-2023_02-17-2023_1324.zip</compiler_build>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=b13633b11b1aedd088c964a5ec4bcbd0"/>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=b13633b11b1aedd088c964a5ec4bcbd0^sys_idNOT IN1b6dd04a1b5eedd088c964a5ec4bcb27"/>
+    <sys_flow_subflow_plan action="INSERT_OR_UPDATE">
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_subflow_plan","id":"1b6dd04a1b5eedd088c964a5ec4bcb27","name":"plan","plan_signature":null}}</plan>
+        <plan_id display_value="Process Timesheet">b13633b11b1aedd088c964a5ec4bcbd0</plan_id>
+        <snapshot>b3b1a8061b9eedd088c964a5ec4bcbc9</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-20 15:43:04</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1b6dd04a1b5eedd088c964a5ec4bcb27</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-20 15:43:04</sys_updated_on>
+    </sys_flow_subflow_plan>
+</record_update>

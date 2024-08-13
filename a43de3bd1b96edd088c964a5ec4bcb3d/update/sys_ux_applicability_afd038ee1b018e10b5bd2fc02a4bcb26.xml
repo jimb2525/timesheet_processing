@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_applicability">
+    <sys_ux_applicability action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <api_name>x_snc_timesheet_1.Audience for app timesheet-processing</api_name>
+        <description/>
+        <name>Audience for app timesheet-processing</name>
+        <role_names/>
+        <roles>3c3de3bd1b96edd088c964a5ec4bcbb2,bc3de3bd1b96edd088c964a5ec4bcbaf,2831a114c611228501d4ea6c309d626d,343de3bd1b96edd088c964a5ec4bcbab</roles>
+        <sys_class_name>sys_ux_applicability</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-22 19:28:47</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>afd038ee1b018e10b5bd2fc02a4bcb26</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Audience for app timesheet-processing</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Timesheet Processing" source="x_snc_timesheet_1">a43de3bd1b96edd088c964a5ec4bcb3d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Timesheet Processing">a43de3bd1b96edd088c964a5ec4bcb3d</sys_scope>
+        <sys_update_name>sys_ux_applicability_afd038ee1b018e10b5bd2fc02a4bcb26</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-22 19:28:47</sys_updated_on>
+    </sys_ux_applicability>
+</record_update>

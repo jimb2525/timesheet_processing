@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_applicability_m2m_list">
+    <sys_ux_applicability_m2m_list action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applicability display_value="Audience for appTimesheet Processing">c8727f791bd6edd088c964a5ec4bcb42</applicability>
+        <list display_value="All">5c72bf791bd6edd088c964a5ec4bcb45</list>
+        <order>100</order>
+        <sys_class_name>sys_ux_applicability_m2m_list</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-20 12:35:16</sys_created_on>
+        <sys_id>5c72bf791bd6edd088c964a5ec4bcb47</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Timesheet Processing" source="x_snc_timesheet_1">a43de3bd1b96edd088c964a5ec4bcb3d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Timesheet Processing">a43de3bd1b96edd088c964a5ec4bcb3d</sys_scope>
+        <sys_update_name>sys_ux_applicability_m2m_list_5c72bf791bd6edd088c964a5ec4bcb47</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-20 12:35:16</sys_updated_on>
+    </sys_ux_applicability_m2m_list>
+</record_update>

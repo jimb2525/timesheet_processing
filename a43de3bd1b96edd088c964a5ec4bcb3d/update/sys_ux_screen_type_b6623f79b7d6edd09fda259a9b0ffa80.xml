@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_screen_type">
+    <sys_ux_screen_type action="INSERT_OR_UPDATE">
+        <description/>
+        <name>Analytics Center</name>
+        <sys_class_name>sys_ux_screen_type</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-20 12:35:12</sys_created_on>
+        <sys_id>b6623f79b7d6edd09fda259a9b0ffa80</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Analytics Center</sys_name>
+        <sys_package display_value="Timesheet Processing" source="x_snc_timesheet_1">a43de3bd1b96edd088c964a5ec4bcb3d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Timesheet Processing">a43de3bd1b96edd088c964a5ec4bcb3d</sys_scope>
+        <sys_update_name>sys_ux_screen_type_b6623f79b7d6edd09fda259a9b0ffa80</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-20 12:35:12</sys_updated_on>
+    </sys_ux_screen_type>
+    <sys_translated_text action="delete_multiple" query="documentkey=b6623f79b7d6edd09fda259a9b0ffa80"/>
+</record_update>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-20 12:18:04</sys_created_on>
+        <sys_id>2c8eeb311bd6edd088c964a5ec4bcbc2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_timesheet_1_contractor_timesheet.x_snc_timesheet_1.admin</sys_name>
+        <sys_package display_value="Timesheet Processing" source="x_snc_timesheet_1">a43de3bd1b96edd088c964a5ec4bcb3d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Timesheet Processing">a43de3bd1b96edd088c964a5ec4bcb3d</sys_scope>
+        <sys_security_acl display_value="x_snc_timesheet_1_contractor_timesheet">208eeb311bd6edd088c964a5ec4bcbbf</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_2c8eeb311bd6edd088c964a5ec4bcbc2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-20 12:18:04</sys_updated_on>
+        <sys_user_role display_value="x_snc_timesheet_1.admin" name="x_snc_timesheet_1.admin">bc3de3bd1b96edd088c964a5ec4bcbaf</sys_user_role>
+    </sys_security_acl_role>
+</record_update>
